@@ -12,6 +12,6 @@ provider "aws" {
         profile = "default"
 	}
 resource "aws_instance" "Tirth" {
-	ami = "ami-0c2b8ca1dad447f8a" 
+	ami = "ami-0b0af3577fe5e3532" 
 	instance_type = "t2.micro"
 }
